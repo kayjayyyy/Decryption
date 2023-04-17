@@ -44,6 +44,7 @@ print("-" * 70)
 print("\033[1;3;32mProcessing..........\033[0m".center(80))
 print("-" * 70)
 
+# Print the decrypted message
 print("\n\033[1;36mDecrypted message:\033[0m", decrypted_message)
 
 # Outro and border line
