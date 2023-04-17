@@ -33,3 +33,8 @@ for i in range(len(encrypted_message)):
     # If + is encrypted, decrypt to o
     elif encrypted_message[i] == "+":
         decrypted_message += "o"
+    # If ! is encrypted, decrypt to u
+    elif encrypted_message[i] == "!":
+        decrypted_message += "u"
+    else:
+        decrypted_message += encrypted_message[i]
