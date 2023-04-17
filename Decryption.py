@@ -18,3 +18,5 @@ print("\033[36m Let's get started! \033[0m".center(78, "~"))
 # Ask the user to input the encrypted message
 encrypted_message = input("\n\033[3;35mPlease enter the message you want to decrypt: \033[0m")
 decrypted_message = ""
+
+# Change every symbol
