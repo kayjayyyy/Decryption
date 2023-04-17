@@ -24,3 +24,6 @@ for i in range(len(encrypted_message)):
     # If * is encrypted, decrypt to a
     if encrypted_message[i] == "*":
         decrypted_message += "a"
+    # If & is encrypted, decrypt to e
+    elif encrypted_message[i] == "&":
+        decrypted_message += "e"
