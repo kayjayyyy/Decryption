@@ -20,3 +20,7 @@ encrypted_message = input("\n\033[3;35mPlease enter the message you want to decr
 decrypted_message = ""
 
 # Change every symbol
+for i in range(len(encrypted_message)):
+    # If * is encrypted, decrypt to a
+    if encrypted_message[i] == "*":
+        decrypted_message += "a"
