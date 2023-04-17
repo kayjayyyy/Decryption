@@ -45,3 +45,10 @@ print("\033[1;3;32mProcessing..........\033[0m".center(80))
 print("-" * 70)
 
 print("\n\033[1;36mDecrypted message:\033[0m", decrypted_message)
+
+# Outro and border line
+print("\n")
+print("\033[3mThank you for supporting our program!".center(70))
+print("")
+print("\033[35m※ \033[0m" * 35)
+print("")
