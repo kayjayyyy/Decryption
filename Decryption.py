@@ -38,3 +38,8 @@ for i in range(len(encrypted_message)):
         decrypted_message += "u"
     else:
         decrypted_message += encrypted_message[i]
+        
+print("")
+print("-" * 70)
+print("\033[1;3;32mProcessing..........\033[0m".center(80))
+print("-" * 70)
